@@ -4,6 +4,10 @@
 ## The first section of this code is called "Alphabet Soup"
 #### The instruction was to create a function which takes a string and sorts the letters in the string and returns the letters in alphabetical order. To do this, I first defined the function "alphabet_soup(word)". I then used the function sorted, which sorts the characters of the string into sorted list in alphabetical order. And finally, I used to function "''.join" to combine the sorted list back into a string. And it returns the alphabetically sorted string.
 #### Here's the code that was used:
+def alphabet_soup(word):
+    return ''.join(sorted(word)) 
+print(alphabet_soup("pelicia"))
+aceiilp
 
 ## The second section of this code is called "Emoticon Problem"
 #### The goal for this one was to create a function which changes specific words into emoticons (:), :D, :(, >:() when given a sentence. In order to do this, I first defined the function "emotify(emotion)" which uses the function ".replace()" which assigns the emoticon to the corresponding word it has to replace. Then with the return function, it shows the modified output.
