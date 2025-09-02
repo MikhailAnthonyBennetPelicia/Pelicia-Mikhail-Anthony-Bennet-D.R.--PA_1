@@ -5,8 +5,10 @@
 #### The instruction was to create a function which takes a string and sorts the letters in the string and returns the letters in alphabetical order. To do this, I first defined the function "alphabet_soup(word)". I then used the function sorted, which sorts the characters of the string into sorted list in alphabetical order. And finally, I used to function "''.join" to combine the sorted list back into a string. And it returns the alphabetically sorted string.
 #### Here's a section of the code that was used:
 ```
+#This defines the function "alphabet_soup"
 def alphabet_soup(word):
-    return ''.join(sorted(word)) 
+    return ''.join(sorted(word)) #This sorts the string and joins it together again
+#This is a sample output using "pelicia"
 print(alphabet_soup("pelicia"))
 Output: aceiilp
 ```
@@ -14,12 +16,14 @@ Output: aceiilp
 #### The goal for this one was to create a function which changes specific words into emoticons (:), :D, :(, >:() when given a sentence. In order to do this, I first defined the function "emotify(emotion)" which uses the function ".replace()" which assigns the emoticon to the corresponding word it has to replace. Then with the return function, it shows the modified output.
 #### Here's a section of the code that was used:
 ```
+#This defines the function "emotify(emotion)" and assigns each word with a corresponding emoticon
 def emotify(emotion):
     emotion = emotion.replace('smile', ':)')
     emotion = emotion.replace('grin', ':D')
     emotion = emotion.replace('sad', ':(')
     emotion = emotion.replace('mad', '>:(')
     return emotion
+#This is a sample output using "No classes make me smile"
 print(emotify("No classes make me smile."))
 Output: No classes make me :).
 ```
@@ -29,12 +33,15 @@ Output: No classes make me :).
 ```
 print("Unpacked List: ")
 
+#This defines the list "writeyourcodehere"
 writeyourcodehere = [1,2,3,4,5,6]
 
+#This assigns the elements to their corresponding indexes.
 first = writeyourcodehere[0]
 middle = writeyourcodehere[1:-1]
 last = writeyourcodehere[-1]
 Unpacked List: 
+#This is a sample output which prints the first element
 print("First = ", first)
 Output: First =  1
 ```
